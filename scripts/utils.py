@@ -10,11 +10,7 @@ prova = df.loc[df["Category"] == "Total national emissions and removals",
                ["Category","CO2 emissions (kt)","Year"]].round(2)
 
 
-cats = ["1. Energy", "2.  Industrial processes and product use", "3.  Agriculture", "5.  Waste"]
-df_filtered = df[df["Category"].isin(cats)]
-df_pivot = df_filtered.pivot(index="Year", columns="Category", values="CO2 emissions (kt)")
-
-df_pivot.plot(figsize=(10,6))
-plt.ylabel("CO₂ emissions (kt)")
-plt.title("Emissioni CO₂ per categoria")
-plt.show()
+path_policies = "D:/Python projects and excercises/co2-emissions-italy/data_processed/policies.csv"
+policies = pd.read_csv(path_policies)
+policies["Year"] = pd.to_numeric(policies["Year"], errors="coerce")
+print(policies[["Year","Event"]].head(5))

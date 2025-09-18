@@ -1,0 +1,21 @@
+Year,Event,Type,Level,Notes,ShortLabel
+1997,"Kyoto Protocol adopted (EU ratified 2002, in force 2005)",policy,Global,International framework; first commitment period until 2012,Kyoto
+2003,EU ETS Directive 2003/87/EC adopted,policy,EU,Established CO2 cap-and-trade system,EU ETS
+2005,EU ETS Phase 1 (2005–2007) operational,policy,EU,"Pilot phase, over-allocation of allowances",ETS I
+2008,EU ETS Phase 2 (2008–2012) operational,policy,EU,"Stricter cap, aligned with Kyoto, broader coverage",ETS II
+2008,Global financial crisis 2008–2009,economic,Global,Industrial production and energy consumption drop,GFC 08–09
+2009,EU Climate and Energy Package 2020 (20-20-20 targets),policy,EU,"Targets for 2020 on CO2, renewables, efficiency",20-20-20
+2009,Renewable Energy Directive I (2009/28/EC),policy,EU,National targets for renewables by 2020,RED I
+2009,Effort Sharing Decision (406/2009/EC),policy,EU,Binding national targets for non-ETS 2013–2020,ESD 2009
+2009,CCS Directive (2009/31/EC),policy,EU,Rules for geological storage of CO2,CCS
+2012,Aviation included in EU ETS (intra-EEA flights),policy,EU,Coverage of aviation emissions within EU/EEA,ETS-AIR
+2013,EU ETS Phase 3 (2013–2020) operational,policy,EU,"Single EU cap, more auctioning, fewer free allowances",ETS III
+2014,Italian Legislative Decree 102/2014 (implements Energy Efficiency Directive 2012/27/EU),policy,IT,"Energy audits, savings obligations, public sector measures",IT EED
+2015,Paris Agreement (COP21) adopted,policy,Global,"Goal <2°C, NDC commitments",Paris
+2015,Market Stability Reserve (MSR) established,policy,EU,Mechanism to stabilise ETS allowance surplus,MSR
+2019,Italian Climate Decree (Law 141/2019),policy,IT,Measures for sustainable mobility and green projects,IT Clima
+2020,COVID-19 pandemic,economic,Global,Lockdowns; sharp drop in traffic and emissions,COVID
+2020,Italian Relaunch Decree: Superbonus 110% for building efficiency,policy,IT,Tax incentives for deep energy retrofits,Superbonus
+2021,Italian Legislative Decree 199/2021 (implements RED II 2018/2001/EU),policy,IT,New renewable framework towards 2030,IT RED II
+2021,EU 'Fit for 55' package presented,policy,EU,Legislative proposals for -55% emissions by 2030,Fit55
+2022,European energy crisis,economic,EU,Price shocks; accelerated policies for renewables and savings,EN Crisis
