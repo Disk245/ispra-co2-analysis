@@ -3,10 +3,9 @@ import re
 import glob
 
 path = "data_raw/ITA-CRT-2025-V0.2-1990-20250313-134808_started.xlsx"
-#TODO: fare iterazione su tutti i file.
 
 def extract_year(path: str):
-    years = re.findall(r"19\d{2}|20\d{2}", path) #r"Deve iniziare con 19; \d{2} d è una cifra da 0 a 9 e devono essercene due
+    years = re.findall(r"19\d{2}|20\d{2}", path)
     return int(years[1])
 
 
@@ -70,5 +69,4 @@ complete_df = pd.concat(frames, ignore_index=True).sort_values(["Year","Category
 complete_df.to_csv("data_processed/co2_emissions_all_years.csv", index=False)
 
 print("Total rows:", len(complete_df))
-print("Years:", sorted(complete_df["Year"].dropna().unique().tolist()))
 print("Saved in: data_processed/co2_emissions_by_sector_all_years.csv")
