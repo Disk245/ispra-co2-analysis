@@ -26,17 +26,6 @@ data_tmp/
 data_test/
 !data_processed/
 
-cheatsheets/
-
-*.png
-*.jpg
-*.jpeg
-*.svg
-*.gif
-*.pdf
-!images/
-!images/**
-
 *.zip
 *.tar
 *.gz
